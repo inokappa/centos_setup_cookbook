@@ -51,6 +51,17 @@ Just include `centos_setup` in your node's `run_list`:
 }
 ```
 
+Use DataBag
+-----------
+
+```
+{
+  "id": "user",
+  "shell": "/bin/bash",
+  "password": ""
+}
+```
+
 Contributing
 ------------
 TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
